@@ -1,4 +1,6 @@
 // connect to main namespace
+define('SCRIPT_DEBUG', true);
+
 const socket = io.connect( '/', {
     transports: ['websocket'],
     upgrade: false,
