@@ -1,5 +1,5 @@
 // connect to main namespace
-const socket = io.connect( 'https://abcde-lel3d.ondigitalocean.app/', {
+const socket = io.connect( '/', {
     transports: ['websocket'],
     upgrade: false,
     reconnection: true,
